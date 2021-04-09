@@ -1,16 +1,17 @@
-### Hi there 👋
+## 👋 Hi! I'm Simon (Also known as TheBoyLeastLikelyTo)
 
-<!--
-**TheBoyLeastLikelyTo/TheBoyLeastLikelyTo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### GitHub's Default Questions...Answered!
 
-Here are some ideas to get you started:
+- **🔭 I’m currently working on:** Minecraft Pi Edition Modding
+- **🌱 I’m currently learning:** Minecraft Pi Python API, C#
+- **👯 I’m looking to collaborate on:** projects within the MCPI  Community
+- **🤔 I’m looking for help with:** Anything I can learn about C# in .NET
+- **💬 Ask me about:** No Idea, I don't have much to share
+- **📫 How to reach me:** On Discord - TheBoyLeastLikelyTo#4375
+- **😄 Pronouns:** He/Him
+- **⚡ Fun fact:** I love Minecraft Pi Edition! Kinda obvious...
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### My GitHub Stats
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TheBoyLeastLikelyTo&show_icons=true)
+### My Top Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheBoyLeastLikelyTo&layout=compact)
