@@ -8,7 +8,6 @@
 - **🤔 I’m looking for help with:** Anything I can learn about C# in .NET
 - **💬 Ask me about:** No Idea, I don't have much to share
 - **📫 How to reach me:** On Discord - TheBoyLeastLikelyTo#4375
-- **😄 Pronouns:** He/Him
 - **⚡ Fun fact:** I love Minecraft Pi Edition! Kinda obvious...
 
 ### My GitHub Stats
