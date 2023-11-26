@@ -1,6 +1,6 @@
-## 👋 Hi! I'm Simon
+# 👋 Hi! I'm Simon
 
-### GitHub's Default Questions...Answered!
+## GitHub's Default Questions...Answered!
 
 - **🔭 I’m currently working on:** Interfacing with APIs and automation
 - **🌱 I’m currently learning:** C#
@@ -11,7 +11,10 @@
 - **😄 Pronouns:** He/Him
 - **⚡ Fun fact:** 🏳‍🌈
 
-### My GitHub Stats
+## Recent Projects
+
+ - [OverDrive.NET](./OverDrive.NET) - an audiobook downloader for OverDrive
+ - [SpotifyGPX](./SpotifyGPX) - map out you Spotify history
+
+## My GitHub Stats
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TheBoyLeastLikelyTo&show_icons=true)
-### My Top Languages
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheBoyLeastLikelyTo&layout=compact)
