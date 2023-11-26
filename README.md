@@ -13,8 +13,13 @@
 
 ## Recent Projects
 
- - [OverDrive.NET](./OverDrive.NET) - an audiobook downloader for OverDrive
- - [SpotifyGPX](./SpotifyGPX) - map out you Spotify history
+ - [OverDrive.NET](https://github.com/TheBoyLeastLikelyTo/OverDrive.NET) - an audiobook downloader for OverDrive
+ - [SpotifyGPX](https://github.com/TheBoyLeastLikelyTo/SpotifyGPX) - map out you Spotify history
+
+## Upcoming Projects
+
+ - inReach Interpret - an app to access files stored on Garmin inReach devices without a subscription
+ - SpotifyGPX2 - map out Spotify history using Spotify API instead of JSON data dump
 
 ## My GitHub Stats
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TheBoyLeastLikelyTo&show_icons=true)
