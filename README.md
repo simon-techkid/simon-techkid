@@ -22,4 +22,8 @@
  - SpotifyGPX2 - map out Spotify history using Spotify API instead of JSON data dump
 
 ## My GitHub Stats
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=TheBoyLeastLikelyTo&show_icons=true)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=TheBoyLeastLikelyTo&theme=github_dark) 
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TheBoyLeastLikelyTo&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TheBoyLeastLikelyTo&theme=github_dark)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TheBoyLeastLikelyTo&theme=github_dark) 
