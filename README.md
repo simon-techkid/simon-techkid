@@ -18,7 +18,7 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TheBoyLeastLikelyTo&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TheBoyLeastLikelyTo&theme=github_dark) 
 
-# Languages
+## Languages
 
 <div align="left">
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="52" />
@@ -35,7 +35,7 @@
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="40" width="52" />
 </div>
 
-# Wishlist
+## Wishlist
 
 <div align="left">
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" width="52" />
@@ -48,7 +48,7 @@
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" width="52" />
 </div>
 
-# Platforms
+## Platforms
 
 <div align="left">
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" width="52" />
@@ -60,7 +60,7 @@
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" width="52" />
 </div>
 
-# Tools
+## Tools
 
 <div align="left">
 	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" />
