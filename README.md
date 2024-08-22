@@ -8,7 +8,7 @@
 - **🤔 I’m looking for help with:** Anything I can learn about C# in .NET
 - **💬 Ask me about:** My work with reverse engineering 😉
 - **📫 How to reach me:** On Discord - TheBoyLeastLikelyTo
-- **😄 Pronouns:** He/Him
+- **😄 Pronouns:** They/Them
 - **⚡ Fun fact:** 🏳‍🌈
 
 ## My GitHub Stats
