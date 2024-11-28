@@ -2,79 +2,73 @@
 
 ## GitHub's Default Questions...Answered!
 
-- **🔭 I’m currently working on:** Interfacing with APIs and automation
-- **🌱 I’m currently learning:** C#
-- **👯 I’m looking to collaborate on:** Whatever you want
-- **🤔 I’m looking for help with:** Anything I can learn about C# in .NET
-- **💬 Ask me about:** My work with reverse engineering 😉
-- **📫 How to reach me:** On Discord - TheBoyLeastLikelyTo
-- **😄 Pronouns:** They/Them
-- **⚡ Fun fact:** 🏳‍🌈
+| Key | Value |
+|--|--|
+| 🔭 **Currently working on** | Interfacing with APIs and automation |
+| 🌱 **Currently learning** | C#, Java |
+| 👯 **Looking to collaborate on** | Any project that excites you! |
+| 🤔 **Seeking help with** | Diving deeper into C# in .NET framework |
+| 💬 **Ask me about** | My work with reverse engineering 😉 |
+| 📫 **How to reach me** | Discord: **TheBoyLeastLikelyTo** |
+| 😄 **Pronouns** | They/Them |
+| ⚡ **Fun fact** | 🏳️‍🌈 Proudly queer! |
 
-## My GitHub Stats
+## Tools I Use
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=TheBoyLeastLikelyTo&theme=github_dark) 
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=TheBoyLeastLikelyTo&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=TheBoyLeastLikelyTo&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=TheBoyLeastLikelyTo&theme=github_dark) 
-
-## Languages
+### Languages
 
 <div align="left">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powershell/powershell-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xml/xml-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yaml/yaml-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="40" width="52" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" style="height: 50px;" />
 </div>
 
-## Wishlist
+### Wishlist
 
 <div align="left">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gcc/gcc-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40" width="52" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" style="height: 50px;" />
 </div>
 
-## Platforms
+### Platforms
 
 <div align="left">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="40" width="52" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" style="height: 50px;" />
 </div>
 
-## Tools
+### IDEs
 
 <div align="left">
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firefox/firefox-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stackoverflow/stackoverflow-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nano/nano-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" height="40" width="52" />
-	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" height="40" width="52" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" style="height: 50px;" />
+</div>
+
+### Cloud Tools
+
+<div align="left">
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" style="height: 50px;" />
+	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" style="height: 50px;" />
+</div>
+
+## What I'm Listening To
+
+<div align="left">
+	<img src="https://lastfm-profile-readme.vercel.app/api/ncserver?&isRounded=true&displayName=true" style="height: 100px;" />
 </div>
