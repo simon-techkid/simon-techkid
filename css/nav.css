@@ -1,0 +1,17 @@
+nav {
+    background: var(--bg-light);
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: var(--primary);
+    text-decoration: none;
+    margin: 0 .75rem;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: var(--secondary);
+}

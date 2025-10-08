@@ -1,0 +1,19 @@
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 2rem;
+    flex-shrink: 0;
+}
+
+#about .text {
+    flex: 1;
+    font-size: 1.15rem;
+}

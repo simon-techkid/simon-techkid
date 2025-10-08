@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Georgia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/header.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/nav.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/about.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/footer.css' | relative_url }}">
+</head>
+<body>
+
+    <header id="home">
+        {% include header.html %}
+    </header>
+    <nav>
+        <a href="#about">Bio</a> 
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="main">
+        <section id="about">
+            {% include about.html %}
+        </section>
+        <section id="portfolio">
+            {% include portfolio.html %}
+        </section>
+        <section id="contact">
+            {% include contact.html %}
+        </section>
+    </main>
+
+    <footer>
+        {% include footer.html %}
+    </footer>
+</body>
+</html>
+

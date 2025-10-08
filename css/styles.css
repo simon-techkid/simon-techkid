@@ -1,0 +1,56 @@
+:root {
+    /* --- Color Palette --- */
+    --white: #fff;
+    --primary: #3b0024;       /* deep dark magenta */
+    --secondary: #c7006e;     /* vibrant pink */
+    --accent: #ffb400;        /* gold accent */
+    --bg-light: #f4f1f2;      /* very light grayish pink */
+    --text-dark: #3b0024;
+    --text-light: #a99da4;
+
+    /* --- Typography --- */
+    --font-header: "Open Sans", sans-serif;
+    --font-body: "Georgia", serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--text-dark);
+    background-color: var(--white);
+    box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.5), inset 0 -15px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header);
+    margin-top: 1rem;
+}
+
+h2 {
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px){
+    nav a {
+        margin: .5rem;
+    }
+}
