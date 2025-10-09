@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- © {{ site.time | date: "%Y" }} {{ site.copyright }} -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="{{ '/css/nav.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/css/about.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/links.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/css/footer.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/header_and_footer.css' | relative_url }}">
 </head>
 <body>
 
@@ -18,20 +21,20 @@
         {% include header.html %}
     </header>
     <nav>
-        <a href="#about">Bio</a> 
+        <a href="#about">About</a> 
+        <a href="#links">Links</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
     </nav>
 
     <main class="main">
         <section id="about">
             {% include about.html %}
         </section>
+        <section id="links">
+            {% include links.html %}
+        </section>
         <section id="portfolio">
             {% include portfolio.html %}
-        </section>
-        <section id="contact">
-            {% include contact.html %}
         </section>
     </main>
 

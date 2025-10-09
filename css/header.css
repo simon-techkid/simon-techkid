@@ -1,8 +1,5 @@
 header {
-    background: var(--primary);
-    color: var(--white);
     padding: 3rem;
-    text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     z-index: 1;
@@ -14,10 +11,4 @@ header h1 {
 
 header p {
     font-size: 1.25rem;
-}
-
-@media (max-width: 600px){
-    header h1 {
-        font-size: 2rem;
-    }
 }

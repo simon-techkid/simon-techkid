@@ -1,0 +1,50 @@
+.link-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px,1fr));
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.link-card {
+    background: var(--white);
+    border-radius: .75rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform .3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.link-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: .5rem;
+    margin-right: 1.5rem;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+}
+
+.link-card h3 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+}
+
+.link-card p {
+    color: var(--text-light);
+    font-size: .95rem;
+    margin: 0;
+}
+
+.link-group {
+    margin-bottom: 3rem;
+}
+
+.link-group-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}

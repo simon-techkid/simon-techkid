@@ -1,0 +1,10 @@
+header, footer {
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+}
+
+header a, footer a {
+    color: var(--white);
+    font-style: italic;
+}

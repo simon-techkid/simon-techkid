@@ -1,4 +1,10 @@
 title: "Simon Field"
 description: "Personal website of Simon Field."
+
+email-professional: "simon@simonfield.software"
+email-personal: "simon.techkid@outlook.com"
+
+copyright: "Simon Field - All Rights Reserved"
+
 baseurl: ""
-theme: minima
+livereload: true
