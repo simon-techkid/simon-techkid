@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.grid-group {
+    margin-bottom: 1.5rem;
+}
+
+.grid-group-header {
+    display: inline-block;
+    font-size: 1.25em;
+}
