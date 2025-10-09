@@ -3,9 +3,12 @@
     border-radius: .75rem;
     box-shadow: 0 2px 4px rgba(0,0,0,.1);
     overflow: hidden;
-    transition: transform .3s ease;
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease-in;
 }
 
 .card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 0 10px var(--secondary);
 }
