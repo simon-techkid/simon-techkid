@@ -12,21 +12,32 @@
     <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
 </head>
 <body>
-{% include global_header.html %}
+
+    <header id="home">
+{% include header.html %}
+    </header>
+    <nav>
+{% include nav.html %}
+    </nav>
 
     <main class="main">
-        <section id="about">
-{% include about.html %}
-        </section>
-        <section id="links">
-{% include links.html %}
-        </section>
-        <section id="portfolio">
-{% include portfolio.html %}
+        <section id="readme">
+            <h1>GitHub Profile</h1>
+            <p>
+                Welcome to my GitHub profile! This page details all technologies I'm familiar with, and some GitHub stats!
+                <br/>
+                This page can also be found on my GitHub profile.
+            </p>
+{%- capture readme_content -%}
+{%- include_relative README.md -%}
+{%- endcapture -%}
+{{ readme_content | markdownify }}
         </section>
     </main>
 
-{% include global_footer.html %}
+    <footer>
+{% include footer.html %}
+    </footer>
+
 </body>
 </html>
-
