@@ -2,31 +2,24 @@
 <!-- © {{ site.time | date: "%Y" }} {{ site.copyright }} -->
 <html lang="en">
 <head>
-{% include global_head.html %}
-{% include global_styles.html %}
-    <!-- Page Styles -->
-    <link rel="stylesheet" href="{{ '/css/grid.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/card.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/about.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/links.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+{% include global/global_head.html %}
 </head>
 <body>
-{% include global_header.html %}
+{% include global/global_header.html %}
 
     <main class="main">
         <section id="about">
-{% include about.html %}
+{% include default/about.html %}
         </section>
         <section id="links">
-{% include links.html %}
+{% include default/links.html %}
         </section>
         <section id="portfolio">
-{% include portfolio.html %}
+{% include default/portfolio.html %}
         </section>
     </main>
 
-{% include global_footer.html %}
+{% include global/global_footer.html %}
 </body>
 </html>
 

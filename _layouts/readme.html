@@ -2,23 +2,10 @@
 <!-- © {{ site.time | date: "%Y" }} {{ site.copyright }} -->
 <html lang="en">
 <head>
-{% include global_head.html %}
-{% include global_styles.html %}
-    <!-- Page Styles -->
-    <link rel="stylesheet" href="{{ '/css/grid.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/card.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/about.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/links.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/css/portfolio.css' | relative_url }}">
+{% include global/global_head.html %}
 </head>
 <body>
-
-    <header id="home">
-{% include header.html %}
-    </header>
-    <nav>
-{% include nav.html %}
-    </nav>
+{% include global/global_header.html %}
 
     <main class="main">
         <section id="readme">
@@ -35,9 +22,6 @@
         </section>
     </main>
 
-    <footer>
-{% include footer.html %}
-    </footer>
-
+{% include global/global_footer.html %}
 </body>
 </html>
