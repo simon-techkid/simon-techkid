@@ -1,8 +1,8 @@
-.grid.link-list {
+#links .grid.link-list {
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 
-.card.link-card {
+#links .card.link-card {
     padding: 1.5rem;
     text-decoration: none;
     color: inherit;
@@ -10,24 +10,24 @@
     align-items: center;
 }
 
-.card.link-card img {
+#links .card.link-card img {
     width: 80px;
     height: 80px;
     border-radius: .5rem;
     margin-right: 1.5rem;
 }
 
-.card.link-card:hover {
+#links .card.link-card:hover {
     transform: translateY(-5px);
 }
 
-.card.link-card h3 {
+#links .card.link-card h3 {
     margin-top: 0;
     margin-bottom: .5rem;
     font-size: 1.25rem;
 }
 
-.card.link-card p {
+#links .card.link-card p {
     color: var(--text-light);
     font-size: .95rem;
     margin: 0;

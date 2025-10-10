@@ -6,5 +6,11 @@ header, footer {
 
 header a, footer a {
     color: var(--white);
-    font-style: italic;
+}
+
+header h1, footer h1, header p, footer p {
+    text-shadow:
+        0 0 0.3em var(--secondary),
+        0 0 0.3em var(--black),
+        0 0 0.3em var(--secondary);
 }

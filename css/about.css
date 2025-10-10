@@ -1,19 +1,23 @@
 #about {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    overflow: auto; /* To contain the floated elements */
 }
 
-#about img {
+#about img.cover {
+    float: left;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin-right: 2rem;
-    flex-shrink: 0;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about p.leader:first-letter {
+    float: left;
+    font-size: 75px;
 }
 
 #about .text {
-    flex: 1;
     font-size: 1.15rem;
 }

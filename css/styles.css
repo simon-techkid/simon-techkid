@@ -12,10 +12,14 @@
 :root {
     /* --- Color Palette --- */
     --white: white;
+    --black: black;
+
     --primary: #3b0024;
     --secondary: #c7006e;
     --accent: #ffb400;
+    
     --bg-light: #f4f1f2;
+    
     --text-dark: #3b0024;
     --text-light: #867980;
 
