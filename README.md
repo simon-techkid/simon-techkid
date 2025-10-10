@@ -1,18 +1,5 @@
 # 👋 Hi! I'm Simon
 
-## GitHub's Default Questions...Answered!
-
-| Key | Value |
-|--|--|
-| 🔭 **Currently working on** | Interfacing with APIs and automation |
-| 🌱 **Currently learning** | C#, Java |
-| 👯 **Looking to collaborate on** | Any project that excites you! |
-| 🤔 **Seeking help with** | Diving deeper into C# in .NET framework |
-| 💬 **Ask me about** | My work with reverse engineering 😉 |
-| 📫 **How to reach me** | Discord: **TheBoyLeastLikelyTo** |
-| 😄 **Pronouns** | They/Them |
-| ⚡ **Fun fact** | 🏳️‍🌈 Proudly queer! |
-
 ## Tools I Use
 
 ### Languages
