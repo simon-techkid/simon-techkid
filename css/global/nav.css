@@ -3,6 +3,8 @@ nav {
     padding: .5rem 1rem;
     display: flex;
     justify-content: space-between;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 nav a {
@@ -10,8 +12,39 @@ nav a {
     text-decoration: none;
     margin: 0 .75rem;
     font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 nav a:hover {
     color: var(--secondary);
+}
+
+.pull-left, .pull-center, .pull-right {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.pull-center {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+/* Hide scrollbar while keeping functionality */
+nav::-webkit-scrollbar {
+    height: 6px;
+}
+
+nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: var(--text-light);
+    border-radius: 3px;
+}
+
+nav::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
 }

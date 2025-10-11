@@ -1,7 +1,24 @@
+:root {
+	--icon-size: 60px;
+	--grid-gap: 20px;
+	--buffer: 40px;
+	--col-count: 1;
+	--icon-plus-buffer: calc(
+		var(--icon-size) + var(--buffer) / var(--col-count)
+	);
+}
+
 .categories {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	gap: 20px;
+	grid-template-columns: repeat(
+		auto-fit,
+		minmax(
+			calc(
+				var(--icon-plus-buffer) * var(--col-count)
+			), 1fr
+		)
+	);
 }
 
 .category {
@@ -12,13 +29,35 @@
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 20px;
+	grid-template-columns: repeat(var(--col-count), 1fr);
+	gap: var(--grid-gap);
 	padding: 10px 0;
 	justify-items: center;
 	align-items: center;
 }
 
 i {
-	font-size: 75px;
+	font-size: var(--icon-size);
+}
+
+/* Progressive column scaling based on available space */
+/* 2 columns: need ~200px (60+40)*2 = 200px */
+@media (min-width: 400px) {
+	:root {
+		--col-count: 2;
+	}
+}
+
+/* 3 columns: need ~300px (60+40)*3 = 300px */
+@media (min-width: 600px) {
+	:root {
+		--col-count: 3;
+	}
+}
+
+/* 4 columns: need ~400px (60+40)*4 = 400px */
+@media (min-width: 800px) {
+	:root {
+		--col-count: 4;
+	}
 }
