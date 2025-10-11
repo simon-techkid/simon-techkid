@@ -1,27 +1,4 @@
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
-<style>
-	.categories {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-		gap: 20px;
-	}
-	.category {
-		margin-bottom: 20px;
-		max-width: fit-content;
-		max-height: fit-content;
-	}
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 20px;
-		padding: 10px 0;
-		justify-items: center;
-		align-items: center;
-	}
-	i {
-		font-size: 75px;
-	}
-</style>
 
 # 👋 Hi! I'm Simon
 # Technologies I Use
