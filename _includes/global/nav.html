@@ -1,4 +1,11 @@
-<a href="/#about">About</a> 
-<a href="/#links">Links</a>
-<a href="/#portfolio">Portfolio</a>
-<a href="/README">Technologies</a>
+<div class="pull-left">
+    <a href="/">Home</a>
+</div>
+<div class="pull-center" id="dynamic-nav-center">
+    {% for link in page.nav_center %}<a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+</div>
+<div class="pull-right">
+    {% for link in page.nav_right %}<a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+</div>

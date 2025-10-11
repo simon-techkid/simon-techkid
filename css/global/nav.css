@@ -2,7 +2,7 @@ nav {
     background: var(--bg-light);
     padding: .5rem 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 nav a {
