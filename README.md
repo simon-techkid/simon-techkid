@@ -16,7 +16,6 @@
 			<i class="devicon-typescript-plain colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h3>Wishlist</h3>
 		<div class="grid">
@@ -30,7 +29,6 @@
 			<i class="devicon-swift-plain colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h3>Web Development</h3>
 		<div class="grid">
@@ -39,7 +37,6 @@
 			<i class="devicon-javascript-plain colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h3>Markup Languages</h3>
 		<div class="grid">
@@ -49,7 +46,6 @@
 			<i class="devicon-markdown-original colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h2>Development Tools</h2>
 		<div class="grid">
@@ -73,7 +69,6 @@
 			<i class="devicon-jekyll-plain-wordmark colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h2>Cloud Tools</h2>
 		<div class="grid">
@@ -85,7 +80,6 @@
 			<i class="devicon-googlecloud-plain-wordmark colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h2>Applications</h2>
 		<div class="grid">
@@ -94,7 +88,6 @@
 			<i class="devicon-firefox-plain-wordmark colored"></i>
 		</div>
 	</div>
-
 	<div class="category">
 		<h2>Platforms</h2>
 		<div class="grid">
@@ -118,5 +111,6 @@
 # Fun Stuff
 
 <div align="left">
-	<img src="https://lastfm-profile-readme.vercel.app/api/ncserver?&isRounded=true&displayName=true" style="max-height: 100px;"/>
+	<img src="https://lastfm-profile-readme.vercel.app/api/ncserver?&isRounded=true&displayName=true"
+	style="max-height: 100px;">
 </div>
