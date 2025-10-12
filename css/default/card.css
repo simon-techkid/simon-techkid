@@ -1,14 +1,14 @@
-.card {
+.home-card {
     background: var(--white);
     border-radius: .75rem;
     box-shadow: 0 2px 10px rgba(0,0,0,.1);
     overflow: hidden;
-    transition:
-        transform .3s ease,
-        box-shadow .3s ease-in;
+    border: 1px solid rgba(166, 40, 54, 0.1); /* tertiary with low opacity */
+    transition: all .3s ease;
 }
 
-.card:hover {
+.home-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px var(--secondary);
+    border-color: var(--tertiary);
 }

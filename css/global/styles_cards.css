@@ -1,0 +1,31 @@
+/* Basic card container with subtle shadow and hover effects */
+.card {
+    background: var(--white);
+    border: 1px solid var(--bg-light);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(var(--primary-rgb), 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Card hover state with lift effect */
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(var(--primary-rgb), 0.15);
+}
+
+/* Card variant with primary color left border accent */
+.card.card-primary {
+    border-left: 4px solid var(--primary);
+}
+
+/* Card variant with secondary color left border accent */
+.card.card-secondary {
+    border-left: 4px solid var(--secondary);
+}
+
+/* Card variant with accent color left border accent */
+.card.card-accent {
+    border-left: 4px solid var(--accent);
+}

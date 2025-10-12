@@ -1,0 +1,64 @@
+/* Base tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+
+/* Tooltip text bubble that appears on hover */
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+/* Tooltip hover state to show the bubble */
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-0.25rem);
+}
+
+/* Tab navigation container */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid var(--bg-light);
+    margin-bottom: 1rem;
+}
+
+/* Individual tab button styling */
+.tab {
+    padding: 0.75rem 1.5rem;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-family: var(--font-header);
+    font-weight: 600;
+    color: var(--text-light);
+    transition: all 0.3s ease;
+}
+
+/* Tab hover state */
+.tab:hover {
+    color: var(--secondary);
+    background-color: rgba(var(--secondary-rgb), 0.05);
+}
+
+/* Active tab state with secondary color accent */
+.tab.active {
+    color: var(--secondary);
+    border-bottom-color: var(--secondary);
+}

@@ -2,32 +2,39 @@
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 
-#links .card.link-card {
+#links .home-card.link-card {
     padding: 1.5rem;
     text-decoration: none;
     color: inherit;
     display: flex;
     align-items: center;
+    border-left: 0.3rem solid transparent;
+    transition: all 0.3s ease;
 }
 
-#links .card.link-card .image {
+#links .home-card.link-card .image {
     width: 80px;
     height: 80px;
-    border-radius: .5rem;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
 }
 
-#links .card.link-card:hover {
+#links .home-card.link-card:hover {
     transform: translateY(-5px);
+    border-left-color: var(--tertiary);
 }
 
-#links .card.link-card h3 {
+#links .home-card.link-card h3 {
     margin-top: 0;
     margin-bottom: .5rem;
     font-size: 1.25rem;
+    transition: color 0.3s ease;
 }
 
-#links .card.link-card p {
+#links .home-card.link-card:hover h3 {
+    color: var(--accent);
+}
+
+#links .home-card.link-card p {
     color: var(--text-light);
     font-size: .95rem;
     margin: 0;

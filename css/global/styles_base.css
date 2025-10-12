@@ -9,14 +9,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Georgia&display=swap');
 
+/* CSS custom properties defining the color palette and typography system */
 :root {
     /* --- Color Palette --- */
-    --white: white;
-    --black: black;
+    --white: #fff;
+    --white-rgb: 255, 255, 255;
+    
+    --black: #000;
+    --black-rgb: 0, 0, 0;
 
     --primary: #3b0024;
+    --primary-rgb: 59, 0, 36;
+    
     --secondary: #c7006e;
+    --secondary-rgb: 199, 0, 110;
+
+    --tertiary: #a62836;
+    --tertiary-rgb: 166, 40, 54;
+    
     --accent: #ffb400;
+    --accent-rgb: 255, 180, 0;
     
     --bg-light: #f4f1f2;
     
@@ -28,12 +40,14 @@
     --font-body: "Georgia", serif;
 }
 
+/* Universal reset for consistent box-sizing and removing default margins/padding */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Main body styling with typography, colors, and subtle inset shadow */
 body {
     font-family: var(--font-body);
     line-height: 1.6;
@@ -42,30 +56,64 @@ body {
     box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.5), inset 0 -15px 15px -15px rgba(0, 0, 0, 0.5);
 }
 
+/* Main content container with max-width and centered layout */
 .main {
     max-width: 1200px;
     margin: auto;
     padding: 2rem 1rem;
 }
 
+/* Main container headings */
+.main h1, 
+.main h2, 
+.main h3, 
+.main h4, 
+.main h5, 
+.main h6 {
+    color: var(--primary);
+}
+
+/* Main container links */
+.main a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-decoration-color: var(--tertiary);
+    transition: all 0.2s ease;
+}
+
+/* Main container link hover state */
+.main a:hover {
+    color: var(--tertiary);
+    text-decoration-color: var(--accent);
+}
+
+/* Section spacing for content organization */
 section {
     margin-bottom: 4rem;
 }
 
+/* Base heading styles with consistent typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-header);
     margin-top: 1rem;
+        position: relative;
 }
 
+/* H2 styling with accent color underline */
 h2 {
-    border-bottom: 2px solid var(--secondary);
+    border-bottom: 0.2rem solid var(--accent);
     padding-bottom: .5rem;
     margin-bottom: 1rem;
-    text-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 600px){
-    nav a {
-        margin: .5rem;
-    }
+h3::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.2em;
+    height: 1em;
+    background: var(--tertiary);
+    border-radius: 2px;
 }

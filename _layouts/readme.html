@@ -7,14 +7,16 @@
 <body>
 {% include global/global_header.html %}
 
-    <main class="main">
+    <div class="main">
         <section id="readme">
+            <button class="btn">My GitHub</button>
+            <button class="btn-secondary">My GitHub</button>
 {%- capture readme_content -%}
 {%- include_relative README.md -%}
 {%- endcapture -%}
 {{ readme_content | markdownify }}
         </section>
-    </main>
+    </div>
 
 {% include global/global_footer.html %}
 </body>

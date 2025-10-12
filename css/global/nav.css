@@ -4,7 +4,8 @@ nav {
     display: flex;
     justify-content: space-between;
     overflow-x: auto;
-    white-space: nowrap;
+    flex-wrap: nowrap;
+    min-width: 0;
 }
 
 nav a {
@@ -14,37 +15,28 @@ nav a {
     font-weight: 600;
     white-space: nowrap;
     flex-shrink: 0;
+    transition: all 0.2s ease-in;
 }
 
 nav a:hover {
     color: var(--secondary);
+    transform: translateY(-1px);
+    text-shadow:
+        0 0 0.1em var(--tertiary),
+        0 0 0.1em var(--tertiary),
+        0 0 0.1em var(--tertiary);
+    transition: all 0.2s ease
 }
 
-.pull-left, .pull-center, .pull-right {
+nav .pull-left, nav .pull-center, nav .pull-right {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    min-width: 0;
 }
 
-.pull-center {
+nav .pull-center {
     flex-grow: 1;
     justify-content: center;
-}
-
-/* Hide scrollbar while keeping functionality */
-nav::-webkit-scrollbar {
-    height: 6px;
-}
-
-nav::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-nav::-webkit-scrollbar-thumb {
-    background: var(--text-light);
-    border-radius: 3px;
-}
-
-nav::-webkit-scrollbar-thumb:hover {
-    background: var(--primary);
+    min-width: 0;
 }

@@ -4,8 +4,15 @@ header, footer {
     text-align: center;
 }
 
-header a, footer a {
-    color: var(--white);
+header a, footer a,
+header a:link, footer a:link,
+header a:visited, footer a:visited,
+header a:hover, footer a:hover,
+header a:active, footer a:active {
+    color: var(--white) !important;
+    text-decoration: none !important;
+    text-decoration-color: transparent !important;
+    border: none !important;
 }
 
 header h1, footer h1, header p, footer p {
