@@ -14,7 +14,7 @@
     /* --- Color Palette --- */
     --white: #fff;
     --white-rgb: 255, 255, 255;
-    
+
     --black: #000;
     --black-rgb: 0, 0, 0;
 
@@ -96,7 +96,7 @@ section {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-header);
     margin-top: 1rem;
-        position: relative;
+    position: relative;
 }
 
 /* H2 styling with accent color underline */

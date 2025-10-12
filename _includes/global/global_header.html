@@ -1,2 +1,19 @@
-<header id="home">{% include global/header.html %}</header>
-<nav>{% include global/nav.html %}</nav>
+<header id="home">
+    <a href="/"><h1>Simon Field</h1></a>
+    <p>Pronouns: they/them</p>
+    <p>Software Developer</p>
+    <p><a href="mailto:{{ site.email-professional }}">{{ site.email-professional }}</a></p>
+</header>
+<nav>
+        <div class="pull-left">
+        <a href="/">Home</a>
+    </div>
+    <div class="pull-center" id="dynamic-nav-center">
+        {% for link in page.nav_center %}<a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+    <div class="pull-right">
+        {% for link in page.nav_right %}<a href="{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+    </div>
+</nav>
