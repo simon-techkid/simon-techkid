@@ -15,7 +15,7 @@
 
 #about p.leader:first-letter {
     float: left;
-    font-size: 75px;
+    font-size: 2rem;
 }
 
 #about .text {

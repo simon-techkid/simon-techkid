@@ -13,9 +13,24 @@
 }
 
 #links .home-card.link-card .image {
+    margin-right: 2rem;
+    filter: grayscale(100%);
+}
+
+#links .home-card.link-card .image.image-font {
+    font-size: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links .home-card.link-card .image.image-pic {
     width: 80px;
     height: 80px;
-    margin-right: 2rem;
+    object-fit: cover;
+    object-position: 100% 0%;
 }
 
 #links .home-card.link-card:hover {
