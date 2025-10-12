@@ -1,0 +1,108 @@
+<!-- Bootstrap Button Examples -->
+
+<!-- Basic Buttons -->
+<div class="mb-4">
+  <h3>Basic Buttons</h3>
+  <!-- Primary button (matches your default button) -->
+  <button type="button" class="btn btn-primary me-2">Primary Button</button>
+  
+  <!-- Secondary button (matches your btn-secondary) -->
+  <button type="button" class="btn btn-secondary me-2">Secondary Button</button>
+  
+  <!-- Other built-in variants -->
+  <button type="button" class="btn btn-success me-2">Success</button>
+  <button type="button" class="btn btn-danger me-2">Danger</button>
+  <button type="button" class="btn btn-warning me-2">Warning</button>
+  <button type="button" class="btn btn-info me-2">Info</button>
+  <button type="button" class="btn btn-light me-2">Light</button>
+  <button type="button" class="btn btn-dark me-2">Dark</button>
+  <button type="button" class="btn btn-link">Link</button>
+</div>
+
+<!-- Outline Buttons -->
+<div class="mb-4">
+  <h3>Outline Buttons</h3>
+  <button type="button" class="btn btn-outline-primary me-2">Primary</button>
+  <button type="button" class="btn btn-outline-secondary me-2">Secondary</button>
+  <button type="button" class="btn btn-outline-success me-2">Success</button>
+  <button type="button" class="btn btn-outline-danger me-2">Danger</button>
+  <button type="button" class="btn btn-outline-warning me-2">Warning</button>
+  <button type="button" class="btn btn-outline-info me-2">Info</button>
+  <button type="button" class="btn btn-outline-light me-2">Light</button>
+  <button type="button" class="btn btn-outline-dark me-2">Dark</button>
+</div>
+
+<!-- Button Sizes -->
+<div class="mb-4">
+  <h3>Button Sizes</h3>
+  <button type="button" class="btn btn-primary btn-lg me-2">Large button</button>
+  <button type="button" class="btn btn-primary me-2">Default button</button>
+  <button type="button" class="btn btn-primary btn-sm me-2">Small button</button>
+</div>
+
+<!-- Custom-styled Bootstrap buttons to match your site's theme -->
+<div class="mb-4">
+  <h3>Custom Styled Bootstrap Buttons</h3>
+  
+  <!-- Mimicking your primary button style -->
+  <button type="button" class="btn btn-primary shadow-sm me-2" 
+          style="background-color: var(--accent); color: var(--primary); border: none; font-weight: 600; transition: all 0.3s ease;">
+    Custom Primary
+  </button>
+  
+  <!-- With hover effect using JavaScript -->
+  <button type="button" id="custom-hover-btn" class="btn shadow-sm me-2" 
+          style="background-color: var(--accent); color: var(--primary); border: none; font-weight: 600; transition: all 0.3s ease;">
+    With Hover Effect
+  </button>
+  
+  <!-- Mimicking your secondary button style -->
+  <button type="button" class="btn shadow-sm me-2" 
+          style="background-color: var(--tertiary); color: var(--white); border: none; font-weight: 600; transition: all 0.3s ease;">
+    Custom Secondary
+  </button>
+</div>
+
+<!-- Buttons with Icons -->
+<div class="mb-4">
+  <h3>Buttons with Icons</h3>
+  <button type="button" class="btn btn-primary me-2">
+    <i class="bi bi-check-circle me-1"></i> Save
+  </button>
+  <button type="button" class="btn btn-danger me-2">
+    <i class="bi bi-trash me-1"></i> Delete
+  </button>
+  <button type="button" class="btn btn-success me-2">
+    <i class="bi bi-cloud-arrow-up me-1"></i> Upload
+  </button>
+  <button type="button" class="btn btn-info me-2">
+    <i class="bi bi-info-circle me-1"></i> Info
+  </button>
+</div>
+
+<!-- Button Groups -->
+<div class="mb-4">
+  <h3>Button Groups</h3>
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary">Left</button>
+    <button type="button" class="btn btn-primary">Middle</button>
+    <button type="button" class="btn btn-primary">Right</button>
+  </div>
+</div>
+
+<!-- Add subtle hover effect to custom buttons -->
+<script>
+  document.getElementById('custom-hover-btn').addEventListener('mouseenter', function() {
+    this.style.backgroundColor = 'var(--primary)';
+    this.style.color = 'var(--accent)';
+    this.style.transform = 'translateY(-2px)';
+    this.style.boxShadow = '0 4px 15px rgba(var(--accent-rgb), 0.4)';
+  });
+  
+  document.getElementById('custom-hover-btn').addEventListener('mouseleave', function() {
+    this.style.backgroundColor = 'var(--accent)';
+    this.style.color = 'var(--primary)';
+    this.style.transform = 'translateY(0)';
+    this.style.boxShadow = '0 2px 5px rgba(var(--accent-rgb), 0.3)';
+  });
+</script>

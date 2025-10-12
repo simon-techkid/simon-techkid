@@ -1,19 +1,36 @@
-/* 
- * Bootstrap navbar classes now handle most of these styles:
- * - navbar, navbar-expand-lg for responsive behavior
- * - bg-light for background color
- * - nav-link for styling links
- * - navbar-nav for navigation sections
- * - me-auto, mx-auto, ms-auto for alignment
- */
+/* Basic nav link styling */
+.navbar .nav-link {
+    position: relative;
+    color: var(--bs-primary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    transition: all 0.3s ease;
+}
 
-/* Custom hover effect for nav links that Bootstrap doesn't provide */
+/* Animated underline effect using secondary color */
+.navbar .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--bs-secondary);
+    transition: all 0.3s ease;
+}
+
+/* Expand the underline on hover */
+.navbar .nav-link:hover::after {
+    width: 80%;
+    left: 10%;
+}
+
+/* Enhanced hover effect with text color and subtle glow */
 .navbar .nav-link:hover {
     color: var(--bs-secondary);
     transform: translateY(-1px);
     text-shadow:
-        0 0 0.1em var(--bs-tertiary),
-        0 0 0.1em var(--bs-tertiary),
-        0 0 0.1em var(--bs-tertiary);
-    transition: all 0.2s ease;
+        0 0 0.1em rgba(var(--bs-tertiary-rgb), 0.3),
+        0 0 0.1em rgba(var(--bs-tertiary-rgb), 0.3);
 }

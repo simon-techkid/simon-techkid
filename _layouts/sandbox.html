@@ -8,12 +8,8 @@
 {% include global/global_header.html %}
 
     <div class="main">
-        <section id="readme">
-{%- capture readme_content -%}
-{%- include_relative README.md -%}
-{%- endcapture -%}
-{{ readme_content | markdownify }}
-        </section>
+        {% include sandbox/bootstrap_buttons.html %}
+        {% include sandbox/bootstrap_alerts.html %}
     </div>
 
 {% include global/global_footer.html %}

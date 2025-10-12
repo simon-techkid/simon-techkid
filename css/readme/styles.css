@@ -36,7 +36,7 @@
 	align-items: center;
 }
 
-i {
+i.readme {
 	font-size: var(--icon-size);
 }
 

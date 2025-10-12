@@ -1,11 +1,118 @@
 /* Custom hover effects for Bootstrap cards */
 .hover-shadow {
     transition: all 0.3s ease;
+    border: 1px solid rgba(var(--bs-primary-rgb), 0.1);
 }
 
 .hover-shadow:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+    border-color: var(--bs-secondary);
 }
 
-/* Any additional custom styles that are not provided by Bootstrap should be added here */
+/* Colorful link styling across the site */
+.main a:not(.btn):not(.card):not(.nav-link) {
+    color: var(--bs-primary);
+    text-decoration-color: var(--bs-tertiary);
+    text-decoration-thickness: 2px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.main a:not(.btn):not(.card):not(.nav-link):hover {
+    color: var(--bs-secondary);
+    text-decoration-color: var(--bs-warning);
+}
+
+/* Card hover effects with colored borders */
+.card {
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a.card:hover {
+    border-bottom: 3px solid var(--bs-secondary);
+}
+
+/* Color cycling for cards - adds subtle color variety to cards */
+.row .col:nth-child(3n+1) .card:hover {
+    border-bottom-color: var(--bs-primary);
+}
+
+.row .col:nth-child(3n+2) .card:hover {
+    border-bottom-color: var(--bs-secondary);
+}
+
+.row .col:nth-child(3n+3) .card:hover {
+    border-bottom-color: var(--bs-tertiary);
+}
+
+/* Accent color highlighting for important elements */
+.text-accent {
+    color: var(--bs-warning) !important;
+}
+
+.bg-accent {
+    background-color: var(--bs-warning) !important;
+}
+
+/* Custom blockquote with tertiary color accent */
+blockquote {
+    border-left: 4px solid var(--bs-tertiary);
+    padding-left: 1rem;
+    margin-left: 0;
+    font-style: italic;
+    color: var(--bs-gray);
+}
+
+/* Enhance list styling */
+.main ul:not(.list-unstyled):not(.navbar-nav) {
+    padding-left: 1.5rem;
+}
+
+.main ul:not(.list-unstyled):not(.navbar-nav) li {
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.main ul:not(.list-unstyled):not(.navbar-nav) li::marker {
+    color: var(--bs-tertiary);
+}
+
+/* Add colored bottom border to nav */
+.navbar {
+    border-bottom: 3px solid var(--bs-warning);
+}
+
+/* Circular icon styling for cards */
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--bs-primary);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* Color variations for icons */
+.row .col:nth-child(3n+1) .icon-circle {
+    background: var(--bs-primary);
+}
+
+.row .col:nth-child(3n+2) .icon-circle {
+    background: var(--bs-secondary);
+}
+
+.row .col:nth-child(3n+3) .icon-circle {
+    background: var(--bs-tertiary);
+}
+
+/* Icon hover effect */
+a:hover .icon-circle {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}

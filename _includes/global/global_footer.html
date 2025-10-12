@@ -1,13 +1,17 @@
-<footer class="bg-dark text-white py-4 mt-5">
+<footer class="bg-primary text-white py-4 mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <h5>© {{ site.time | date: "%Y" }} {{ site.copyright }}</h5>
+            <div class="col-md-6 text-md-start">
+                <h5 class="text-warning">© {{ site.time | date: "%Y" }} {{ site.copyright }}</h5>
                 <p>Website Design by Simon Field</p>
             </div>
             <div class="col-md-6 text-md-end">
-                <p><a href="mailto:{{ site.email-professional }}" class="link-light">{{ site.email-professional }}</a></p>
-                <p>Made with ❤️ in Spokane, Washington</p>
+                <h5 class="text-warning">
+                    <a href="mailto:{{ site.email-professional }}" class="text-secondary text-decoration-underline">{{ site.email-professional }}</a>
+                </h5>
+                <p>
+                    Made with <span class="text-tertiary">❤️</span> in <span class="fw-bold text-warning">Spokane, Washington</span>
+                </p>
             </div>
         </div>
     </div>

@@ -1,56 +1,112 @@
-#links .grid.link-list {
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+/* Base styling for link cards */
+.card {
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 0.75rem;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%; /* Ensure consistent height */
 }
 
-#links .home-card.link-card {
-    padding: 1.5rem;
-    text-decoration: none;
-    color: inherit;
+/* We'll use a CSS custom property approach that's compatible with Bootstrap */
+:root {
+    --icon-size-sm: 50px;
+    --icon-size-md: 60px;
+    --icon-size-lg: 70px;
+}
+
+.icon-responsive {
+    width: var(--icon-size-sm);
+    height: var(--icon-size-sm);
+}
+
+/* Only use two media queries that match Bootstrap's breakpoints */
+@media (min-width: 768px) {
+    .icon-responsive {
+        width: var(--icon-size-md);
+        height: var(--icon-size-md);
+    }
+}
+
+@media (min-width: 1200px) {
+    .icon-responsive {
+        width: var(--icon-size-lg);
+        height: var(--icon-size-lg);
+    }
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card:hover .icon-circle {
+    transform: scale(1.1) rotate(3deg);
+}
+
+/* Add a subtle gradient overlay on hover */
+.card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.1));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.card:hover::after {
+    opacity: 1;
+}
+
+/* Make the icon stand out more with shadow */
+.icon-circle {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Colorful border animations */
+.card.border-primary:hover {
+    box-shadow: 0 15px 30px rgba(var(--bs-primary-rgb), 0.2) !important;
+}
+
+.card.border-secondary:hover {
+    box-shadow: 0 15px 30px rgba(var(--bs-secondary-rgb), 0.2) !important;
+}
+
+.card.border-tertiary:hover {
+    box-shadow: 0 15px 30px rgba(var(--bs-tertiary-rgb), 0.2) !important;
+}
+
+/* Make the title more prominent on hover */
+.card:hover .card-title {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Card styling without media queries */
+.card .card-body {
     display: flex;
-    align-items: center;
-    border-left: 0.3rem solid transparent;
-    transition: all 0.3s ease;
-}
-
-#links .home-card.link-card .image {
-    margin-right: 2rem;
-    filter: grayscale(100%);
-}
-
-#links .home-card.link-card .image.image-font {
-    font-size: 80px;
-    max-height: 80px;
-    max-width: 80px;
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
-#links .home-card.link-card .image.image-pic {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    object-position: 100% 0%;
+.card .card-title {
+    margin-bottom: 0.25rem;
 }
 
-#links .home-card.link-card:hover {
-    transform: translateY(-5px);
-    border-left-color: var(--tertiary);
+.card .card-text {
+    margin-bottom: 0.5rem;
 }
 
-#links .home-card.link-card h3 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-size: 1.25rem;
-    transition: color 0.3s ease;
-}
-
-#links .home-card.link-card:hover h3 {
-    color: var(--accent);
-}
-
-#links .home-card.link-card p {
-    color: var(--text-light);
-    font-size: .95rem;
-    margin: 0;
+/* Basic icon styling */
+.icon-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
