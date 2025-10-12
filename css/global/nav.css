@@ -1,42 +1,19 @@
-nav {
-    background: var(--bg-light);
-    padding: .5rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    min-width: 0;
-}
+/* 
+ * Bootstrap navbar classes now handle most of these styles:
+ * - navbar, navbar-expand-lg for responsive behavior
+ * - bg-light for background color
+ * - nav-link for styling links
+ * - navbar-nav for navigation sections
+ * - me-auto, mx-auto, ms-auto for alignment
+ */
 
-nav a {
-    color: var(--primary);
-    text-decoration: none;
-    margin: 0 .75rem;
-    font-weight: 600;
-    white-space: nowrap;
-    flex-shrink: 0;
-    transition: all 0.2s ease-in;
-}
-
-nav a:hover {
-    color: var(--secondary);
+/* Custom hover effect for nav links that Bootstrap doesn't provide */
+.navbar .nav-link:hover {
+    color: var(--bs-secondary);
     transform: translateY(-1px);
     text-shadow:
-        0 0 0.1em var(--tertiary),
-        0 0 0.1em var(--tertiary),
-        0 0 0.1em var(--tertiary);
-    transition: all 0.2s ease
-}
-
-nav .pull-left, nav .pull-center, nav .pull-right {
-    display: flex;
-    align-items: center;
-    flex-shrink: 0;
-    min-width: 0;
-}
-
-nav .pull-center {
-    flex-grow: 1;
-    justify-content: center;
-    min-width: 0;
+        0 0 0.1em var(--bs-tertiary),
+        0 0 0.1em var(--bs-tertiary),
+        0 0 0.1em var(--bs-tertiary);
+    transition: all 0.2s ease;
 }

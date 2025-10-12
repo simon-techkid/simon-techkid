@@ -1,0 +1,117 @@
+/**
+ * Custom Bootstrap theme for Simon Field's website
+ * Overrides Bootstrap default variables with custom color palette and typography
+ */
+
+:root {
+    /* Override Bootstrap's theme colors with existing color palette */
+    --bs-primary: #3b0024;
+    --bs-primary-rgb: 59, 0, 36;
+    
+    --bs-secondary: #c7006e;
+    --bs-secondary-rgb: 199, 0, 110;
+    
+    --bs-tertiary: #a62836; /* Custom variable not in Bootstrap */
+    --bs-tertiary-rgb: 166, 40, 54;
+    
+    --bs-warning: #ffb400; /* Using warning for accent color */
+    --bs-warning-rgb: 255, 180, 0;
+    
+    --bs-light: #f4f1f2;
+    --bs-light-rgb: 244, 241, 242;
+    
+    --bs-dark: #3b0024;
+    --bs-dark-rgb: 59, 0, 36;
+    
+    --bs-gray: #867980;
+    --bs-gray-rgb: 134, 121, 128;
+    
+    /* Typography */
+    --bs-body-font-family: "Georgia", serif;
+    --bs-heading-font-family: "Nunito", sans-serif;
+    --bs-body-color: var(--bs-dark);
+    --bs-body-bg: #fff;
+    
+    /* Other Bootstrap overrides */
+    --bs-border-radius: 0.375rem;
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: var(--bs-tertiary);
+}
+
+/* Apply heading font family to all headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: var(--bs-heading-font-family);
+    color: var(--bs-primary);
+    margin-top: 1rem;
+    position: relative;
+}
+
+/* Preserve custom H2 styling with accent color underline */
+h2, .h2 {
+    border-bottom: 0.2rem solid var(--bs-warning);
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+}
+
+/* Preserve custom H3 styling with tertiary bar */
+h3::before, .h3::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.2em;
+    height: 1em;
+    background: var(--bs-tertiary);
+    border-radius: 2px;
+}
+
+/* Custom link styling */
+a {
+    text-decoration-color: var(--bs-tertiary);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-decoration-color: var(--bs-warning);
+}
+
+/* Preserve body box shadow effect */
+body {
+    box-shadow: inset 0 15px 15px -15px rgba(0, 0, 0, 0.5), inset 0 -15px 15px -15px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom styling for main content container */
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+/* Adjust section spacing to match current site */
+section {
+    margin-bottom: 4rem;
+}
+
+/* Custom button variants */
+.btn-tertiary {
+    color: #fff;
+    background-color: var(--bs-tertiary);
+    border-color: var(--bs-tertiary);
+}
+
+.btn-tertiary:hover {
+    color: #fff;
+    background-color: #8d2330;
+    border-color: #8d2330;
+}
+
+/* Custom text color class for tertiary */
+.text-tertiary {
+    color: var(--bs-tertiary) !important;
+}
+
+/* Custom background color class for tertiary */
+.bg-tertiary {
+    background-color: var(--bs-tertiary) !important;
+}

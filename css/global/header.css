@@ -1,14 +1,10 @@
-header#home {
-    padding: 3rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    position: relative;
-    z-index: 1;
-}
+/* 
+ * Bootstrap classes now handle most of these styles:
+ * - py-5 replaces padding
+ * - shadow replaces box-shadow
+ * - position-relative can be added if needed
+ * - display-4 replaces font-size for h1
+ * - fs-5 replaces font-size for paragraphs
+ */
 
-header#home h1 {
-    font-size: 2.5rem;
-}
-
-header#home p {
-    font-size: 1.25rem;
-}
+/* Custom styles not covered by Bootstrap can be added here */

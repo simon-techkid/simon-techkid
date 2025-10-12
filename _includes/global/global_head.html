@@ -6,6 +6,7 @@
 <link rel="dns-prefetch" href="//fonts.googleapis.com">
 <link rel="dns-prefetch" href="//fonts.gstatic.com">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 
 <!-- Preconnect to external font providers -->
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
@@ -40,6 +41,14 @@
 <link rel="stylesheet" href="{{ '/css/global/header_and_footer.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/css/global/nav.css' | relative_url }}">
 
+<!-- Bootstrap CSS -->
+<link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous"
+>
+
 <!-- External Libraries with integrity checking -->
 <link
     rel="stylesheet"
@@ -47,6 +56,20 @@
     integrity="sha384-CK2SzKma4jA5H/MXDUU7i1TqZlCFaD4T01vtyDFvPlD97JQyS+IsSh1nI2EFbpyk"
     crossorigin="anonymous"
 >
+
+<!-- Bootstrap JavaScript (with Popper.js) -->
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous" 
+    defer
+></script>
+
+<!-- Custom Bootstrap Theme -->
+<link rel="stylesheet" href="{{ '/css/bootstrap-theme.css' | relative_url }}">
+
+<!-- Custom Styles -->
+<link rel="stylesheet" href="{{ '/css/global/custom.css' | relative_url }}">
 
 <!-- Page Styles -->
 {% include {{ page.layout }}/styles.html %}
