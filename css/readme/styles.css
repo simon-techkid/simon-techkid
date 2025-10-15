@@ -36,8 +36,9 @@
 	align-items: center;
 }
 
-i.readme {
-	font-size: var(--icon-size);
+.grid img {
+	width: var(--icon-size);
+	height: var(--icon-size)
 }
 
 /* Progressive column scaling based on available space */

@@ -1,4 +1,6 @@
 <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
+<link rel="stylesheet" type='text/css' href="/css/readme/styles.css">
+
 
 # 👋 Hi! I'm Simon
 # Technologies I Use
@@ -7,102 +9,102 @@
 	<div class="category">
 		<h2>Languages</h2>
 		<div class="grid">
-			<i class="readme devicon-csharp-plain colored"></i>
-			<i class="readme devicon-cplusplus-plain colored"></i>
-			<i class="readme devicon-c-original colored"></i>
-			<i class="readme devicon-java-plain-wordmark colored"></i>
-			<i class="readme devicon-python-plain-wordmark colored"></i>
-			<i class="readme devicon-typescript-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h3>Wishlist</h3>
 		<div class="grid">
-			<i class="readme devicon-ruby-plain-wordmark colored"></i>
-			<i class="readme devicon-lua-plain colored"></i>
-			<i class="readme devicon-rust-original colored"></i>
-			<i class="readme devicon-objectivec-plain colored"></i>
-			<i class="readme devicon-android-plain colored"></i>
-			<i class="readme devicon-kotlin-plain colored"></i>
-			<i class="readme devicon-go-original-wordmark colored"></i>
-			<i class="readme devicon-swift-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/lua/lua-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/objectivec/objectivec-plain.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-plain-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h3>Web Development</h3>
 		<div class="grid">
-			<i class="readme devicon-html5-plain-wordmark colored"></i>
-			<i class="readme devicon-css3-plain-wordmark colored"></i>
-			<i class="readme devicon-javascript-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h3>Markup Languages</h3>
 		<div class="grid">
-			<i class="readme devicon-json-plain colored"></i>
-			<i class="readme devicon-xml-plain colored"></i>
-			<i class="readme devicon-yaml-plain colored"></i>
-			<i class="readme devicon-markdown-original colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h2>Development Tools</h2>
 		<div class="grid">
-			<i class="readme devicon-visualstudio-plain colored"></i>
-			<i class="readme devicon-vscode-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
 		</div>
 		<h4>JetBrains IDEs</h4>
 		<div class="grid">
-			<i class="readme devicon-jetbrains-plain colored"></i>
-			<i class="readme devicon-rider-plain colored"></i>
-			<i class="readme devicon-clion-plain colored"></i>
-			<i class="readme devicon-webstorm-plain colored"></i>
-			<i class="readme devicon-pycharm-plain colored"></i>
-			<i class="readme devicon-intellij-plain colored"></i>
-			<i class="readme devicon-datagrip-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rider/rider-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clion/clion-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webstorm/webstorm-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datagrip/datagrip-original.svg" />
 		</div>
 		<h3>Frameworks</h3>
 		<div class="grid">
-			<i class="readme devicon-dotnetcore-plain colored"></i>
-			<i class="readme devicon-dot-net-plain-wordmark colored"></i>
-			<i class="readme devicon-jekyll-plain-wordmark colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jekyll/jekyll-plain-wordmark.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h2>Cloud Tools</h2>
 		<div class="grid">
-			<i class="readme devicon-github-original-wordmark colored"></i>
-			<i class="readme devicon-githubcodespaces-plain colored"></i>
-			<i class="readme devicon-gitlab-plain-wordmark colored"></i>
-			<i class="readme devicon-amazonwebservices-plain-wordmark colored"></i>
-			<i class="readme devicon-azure-plain-wordmark colored"></i>
-			<i class="readme devicon-googlecloud-plain-wordmark colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" />
+			<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubcodespaces/githubcodespaces-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h2>Applications</h2>
 		<div class="grid">
-			<i class="readme devicon-premierepro-plain colored"></i>
-			<i class="readme devicon-photoshop-plain colored"></i>
-			<i class="readme devicon-firefox-plain-wordmark colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firefox/firefox-original-wordmark.svg" />
 		</div>
 	</div>
 	<div class="category">
 		<h2>Platforms</h2>
 		<div class="grid">
-			<i class="readme devicon-windows8-original colored"></i>
-			<i class="readme devicon-windows11-original colored"></i>
-			<i class="readme devicon-apple-original colored"></i>
-			<i class="readme devicon-linux-plain colored"></i>
-			<i class="readme devicon-raspberrypi-plain colored"></i>
-			<i class="readme devicon-ubuntu-plain-wordmark colored"></i>
-			<i class="readme devicon-debian-plain-wordmark colored"></i>
-			<i class="readme devicon-aarch64-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/raspberrypi/raspberrypi-original.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original-wordmark.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aarch64/aarch64-original.svg" />
 		</div>
 		<h3>Shell</h3>
 		<div class="grid">
-			<i class="readme devicon-powershell-plain colored"></i>
-			<i class="readme devicon-bash-plain colored"></i>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-plain.svg" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-plain.svg" />
 		</div>
 	</div>
 </div>
