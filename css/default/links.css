@@ -1,14 +1,33 @@
-/* Base styling for link cards */
 .card {
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 0.75rem;
     width: 100%;
     margin: 0 auto;
-    height: 100%; /* Ensure consistent height */
+    height: 100%;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
-/* We'll use a CSS custom property approach that's compatible with Bootstrap */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15) !important;
+
+    .icon-circle {
+        transform: scale(1.1) rotate(3deg);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .card-title {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+}
+
 :root {
     --icon-size-sm: 50px;
     --icon-size-md: 60px;
@@ -20,93 +39,49 @@
     height: var(--icon-size-sm);
 }
 
-/* Only use two media queries that match Bootstrap's breakpoints */
-@media (min-width: 768px) {
-    .icon-responsive {
-        width: var(--icon-size-md);
-        height: var(--icon-size-md);
-    }
-}
-
-@media (min-width: 1200px) {
-    .icon-responsive {
-        width: var(--icon-size-lg);
-        height: var(--icon-size-lg);
-    }
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15) !important;
-}
-
-.card:hover .icon-circle {
-    transform: scale(1.1) rotate(3deg);
-}
-
-/* Add a subtle gradient overlay on hover */
-.card::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.1));
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    pointer-events: none;
-}
-
-.card:hover::after {
-    opacity: 1;
-}
-
-/* Make the icon stand out more with shadow */
 .icon-circle {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-/* Colorful border animations */
-.card.border-primary:hover {
-    box-shadow: 0 15px 30px rgba(var(--bs-primary-rgb), 0.2) !important;
-}
-
-.card.border-secondary:hover {
-    box-shadow: 0 15px 30px rgba(var(--bs-secondary-rgb), 0.2) !important;
-}
-
-.card.border-tertiary:hover {
-    box-shadow: 0 15px 30px rgba(var(--bs-tertiary-rgb), 0.2) !important;
-}
-
-/* Make the title more prominent on hover */
-.card:hover .card-title {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-/* Card styling without media queries */
-.card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.card .card-title {
-    margin-bottom: 0.25rem;
-}
-
-.card .card-text {
-    margin-bottom: 0.5rem;
-}
-
-/* Basic icon styling */
-.icon-circle {
+    background: var(--bs-primary);
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 25%;
+
+    transition: all 0.3s ease;
+    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row .col:nth-child(3n+1) {
+    .icon-circle {
+        background: var(--bs-primary);
+    }
+
+    .card {
+        --bs-border-color: var(--bs-primary);
+    }
+}
+
+.row .col:nth-child(3n+2) {
+    .icon-circle {
+        background: var(--bs-secondary);
+    }
+
+    .card {
+        --bs-border-color: var(--bs-secondary) !important;
+    }
+}
+
+.row .col:nth-child(3n+3) {
+    .icon-circle {
+        background: var(--bs-tertiary);
+    }
+
+    .card {
+        --bs-border-color: var(--bs-tertiary);
+    }
 }

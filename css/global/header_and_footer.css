@@ -1,23 +1,45 @@
-header, footer {
-    background: var(--primary);
-    color: var(--white);
-    text-align: center;
+header#home,
+footer#home {
+    background: linear-gradient(135deg, var(--bs-primary) 0%, var(--bs-secondary) 100%);
 }
 
-header a, footer a,
-header a:link, footer a:link,
-header a:visited, footer a:visited,
-header a:hover, footer a:hover,
-header a:active, footer a:active {
-    color: var(--white) !important;
+header#home::before,
+footer#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+        radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+header#home a,
+footer#home a,
+header#home a:link,
+footer#home a:link,
+header#home a:visited,
+footer#home a:visited,
+header#home a:hover,
+footer#home a:hover,
+header#home a:active,
+footer#home a:active {
+    color: var(--bs-body-bg) !important;
     text-decoration: none !important;
     text-decoration-color: transparent !important;
     border: none !important;
 }
 
-header h1, footer h1, header p, footer p {
-    text-shadow:
-        0 0 0.3em var(--secondary),
-        0 0 0.3em var(--black),
-        0 0 0.3em var(--secondary);
+header#home h1,
+footer#home h1,
+header#home p,
+footer#home p,
+header#home a,
+footer#home a {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
