@@ -109,5 +109,5 @@
 
 <div align="left">
 	<img src="https://lastfm-profile-readme.vercel.app/api/ncserver?&isRounded=true&displayName=true"
-	style="max-height: 100px;">
+	style="height: 100px;">
 </div>
