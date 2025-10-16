@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- © {{ site.time | date: "%Y" }} {{ site.copyright }} -->
+<html lang="en">
+<head>
+{% include global/global_head.html %}
+</head>
+<body>
+{% include global/global_header.html %}
+
+    <div class="container main">
+        <section id="attribution">
+{%- capture readme_content -%}
+{%- include attribution/attribution.md -%}
+{%- endcapture -%}
+{{ readme_content | markdownify }}
+        </section>
+    </div>
+
+{% include global/global_footer.html %}
+</body>
+</html>
