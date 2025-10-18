@@ -43,6 +43,20 @@
     --bs-link-hover-color: var(--bs-tertiary);
 }
 
+body {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container.main {
+    flex: 1 0 auto;
+}
+
 /* Apply heading font family to all headings */
 h1, .h1,
 h2, .h2,
