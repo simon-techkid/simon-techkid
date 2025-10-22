@@ -41,6 +41,8 @@
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg" style="height: 50px;" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" style="height: 50px;" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" style="height: 50px;" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg" style="height: 50px;" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tex/tex-original.svg" style="height: 50px;" />
 		</div>
 	</div>
 	<div class="category">
@@ -48,6 +50,7 @@
 		<div class="grid">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" style="height: 50px;" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" style="height: 50px;" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" style="height: 50px;" />
 		</div>
 		<h4>JetBrains IDEs</h4>
 		<div class="grid">
@@ -81,7 +84,9 @@
 		<h2>Applications</h2>
 		<div class="grid">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" style="height: 50px;" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" style="height: 50px;" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" style="height: 50px;" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" style="height: 50px;" />
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firefox/firefox-original-wordmark.svg" style="height: 50px;" />
 		</div>
 	</div>
