@@ -1,4 +1,4 @@
-# 👋 Hi! I'm Simon
+# 👋 Hi! I'm Simona
 # Technologies I Use
 
 <div class="categories">
