@@ -1,4 +1,8 @@
 # 👋 Hi! I'm Simona
+
+[![she/they pronouns](https://img.shields.io/badge/pronouns-she%2Fthey-orange)](https://pronoun.is/she?or=they)
+[![US/Pacific timezone](https://img.shields.io/badge/timezone-US%2FPacific-informational)](https://www.timeanddate.com/worldclock/usa/seattle)
+
 # Technologies I Use
 
 <div class="categories">
