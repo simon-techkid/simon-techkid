@@ -1,7 +1,17 @@
 # 👋 Hi! I'm Simona
 
-[![she/they pronouns](https://img.shields.io/badge/pronouns-she%2Fthey-orange)](https://pronoun.is/she?or=they)
-[![US/Pacific timezone](https://img.shields.io/badge/timezone-US%2FPacific-informational)](https://www.timeanddate.com/worldclock/usa/seattle)
+# Introduction
+
+[![](https://img.shields.io/badge/location-Spokane,%20WA-green)](https://simonafield.com/r/gps-spokane)
+[![](https://img.shields.io/badge/timezone-America/Los%5FAngeles-informational)](https://www.timeanddate.com/time/zones/pt)
+
+[![](https://img.shields.io/badge/email-simona@simonafield%2Ecom-red)](mailto:simona@simonafield.com)
+[![](https://img.shields.io/badge/website-simonafield.com-teal)](https://simonafield.com)
+
+[![](https://img.shields.io/badge/LinkedIn-simonafield-blue)](https://simonafield.com/r/linkedin)
+[![](https://img.shields.io/badge/GitHub-simonafield-white)](https://simonafield.com/r/gh)
+
+[![](https://img.shields.io/badge/pronouns-she%2Fthey-orange)](https://simonafield.com/r/pronounis)
 
 # Technologies I Use
 
@@ -19,17 +29,6 @@
             <img src="https://skillicons.dev/icons?i=js" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ts" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=latex" style="height: 50px;" />
-		</div>
-	</div>
-	<div class="category">
-		<h3>Wishlist</h3>
-		<div class="grid">
-            <img src="https://skillicons.dev/icons?i=ruby" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=lua" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=rust" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=kotlin" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=go" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=swift" style="height: 50px;" />
 		</div>
 	</div>
 	<div class="category">
