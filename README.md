@@ -7,7 +7,7 @@
 
 <div class="categories">
 	<div class="category">
-		<h2>Languages</h2>
+		<h3>Languages</h3>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=cs" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=cpp" style="height: 50px;" />
@@ -33,7 +33,7 @@
 		</div>
 	</div>
 	<div class="category">
-		<h2>Development Tools</h2>
+		<h3>Development Tools</h3>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=visualstudio" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=vscode" style="height: 50px;" />
@@ -47,7 +47,7 @@
 		</div>
 	</div>
 	<div class="category">
-		<h2>Tools & Applications</h2>
+		<h3>Tools & Applications</h3>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=github" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=gitlab" style="height: 50px;" />
@@ -61,7 +61,7 @@
 		</div>
 	</div>
 	<div class="category">
-		<h2>Platforms</h2>
+		<h3>Platforms</h3>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=windows" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=apple" style="height: 50px;" />
