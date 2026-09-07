@@ -14,7 +14,11 @@
             <img src="https://skillicons.dev/icons?i=c" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=java" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=py" style="height: 50px;" />
+            <img src="https://skillicons.dev/icons?i=html" style="height: 50px;" />
+            <img src="https://skillicons.dev/icons?i=css" style="height: 50px;" />
+            <img src="https://skillicons.dev/icons?i=js" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ts" style="height: 50px;" />
+            <img src="https://skillicons.dev/icons?i=latex" style="height: 50px;" />
 		</div>
 	</div>
 	<div class="category">
@@ -29,29 +33,12 @@
 		</div>
 	</div>
 	<div class="category">
-		<h3>Web Development</h3>
-		<div class="grid">
-            <img src="https://skillicons.dev/icons?i=html" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=css" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=js" style="height: 50px;" />
-		</div>
-	</div>
-	<div class="category">
-		<h3>Markup Languages</h3>
-		<div class="grid">
-            <img src="https://skillicons.dev/icons?i=latex" style="height: 50px;" />
-		</div>
-	</div>
-	<div class="category">
 		<h2>Development Tools</h2>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=visualstudio" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=vscode" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=eclipse" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=docker" style="height: 50px;" />
-		</div>
-		<h4>JetBrains IDEs</h4>
-		<div class="grid">
             <img src="https://skillicons.dev/icons?i=rider" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=clion" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=webstorm" style="height: 50px;" />
@@ -60,17 +47,14 @@
 		</div>
 	</div>
 	<div class="category">
-		<h2>Cloud Tools</h2>
+		<h2>Tools & Applications</h2>
 		<div class="grid">
             <img src="https://skillicons.dev/icons?i=github" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=gitlab" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=aws" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=azure" style="height: 50px;" />
-		</div>
-	</div>
-	<div class="category">
-		<h2>Applications</h2>
-		<div class="grid">
+            <img src="https://skillicons.dev/icons?i=powershell" style="height: 50px;" />
+            <img src="https://skillicons.dev/icons?i=bash" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ae" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ps" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ai" style="height: 50px;" />
@@ -85,11 +69,6 @@
             <img src="https://skillicons.dev/icons?i=raspberrypi" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=ubuntu" style="height: 50px;" />
             <img src="https://skillicons.dev/icons?i=debian" style="height: 50px;" />
-		</div>
-		<h3>Shell</h3>
-		<div class="grid">
-            <img src="https://skillicons.dev/icons?i=powershell" style="height: 50px;" />
-            <img src="https://skillicons.dev/icons?i=bash" style="height: 50px;" />
 		</div>
 	</div>
 </div>
